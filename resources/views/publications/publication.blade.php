@@ -27,10 +27,10 @@
                                     <td> {{$publication->title}} </td>
                                     <td> {{$publication->content}} </td>
                                     <td colspan="4">
-                                        <a href="/publicationsEdit/{{$publication->id}}">Edit</a>
-                                        <a href="/publicationsShow/{{$publication->id}}">Show</a>
-                                        <a href="/publicationsDestroy/{{$publication->id}}">Delete</a>
-                                        <a href="/comments/add/{{$publication->id}}">Add comments</a>
+                                        <a class="btn btn-primary" href="/publicationsEdit/{{$publication->id}}">Edit</a>
+                                        <a class="btn btn-secondary" href="/publicationsShow/{{$publication->id}}">Show</a>
+                                        <a class="btn btn-danger" href="/publicationsDestroy/{{$publication->id}}">Delete</a>
+                                        <a class="btn btn-success" href="/comments/add/{{$publication->id}}">Add comments</a>
                                     </td>
                                 </tr>
                             @endforeach

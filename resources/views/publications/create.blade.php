@@ -17,7 +17,7 @@
                         @enderror
                     </div>
                     <div class="mb-3">
-                        <label for="content" class="form-label">Content</label>
+                        <label for="content" class="form-label">Contenido</label>
                         <textarea class="form-control" name="content" id="content" rows="3"></textarea>
                         <input type="hidden" name="user_id" value="{{ auth()->user()->id }}">
                     </div>

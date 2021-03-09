@@ -50,9 +50,11 @@ class PublicationController extends Controller
      * @param  \App\Publication  $publication
      * @return \Illuminate\Http\Response
      */
-    public function show(Publication $publication)
+    public function show($id)
     {
-        //
+        $publication = Publication::with('comments')->where('id',$id)->get();
+
+        return view('publications.show', compact('publication'));
     }
 
     /**
