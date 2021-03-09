@@ -1,3 +1,5 @@
+<p>Antes de todo se deben clonar el proyecto hacer los comandos composer install, composer update, npm install y npm run dev, php artisan key:generate y php artisan migrate, el migrate antes de hacerlo deben configurar una base de datos local, luego ir a la ruta http://localhost:8000/register crearse un usuario y loguearse, una vez en el dashboard darle click al vinculo Publications para revisar el funcionamiento del crud</p>
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
